@@ -4,12 +4,72 @@
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
+            "path" : "pages/discover/discover",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发现",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"searchInput":{
+							"backgroundColor":"#fff",
+							"borderRadius":"6px",
+							"placeholder":"输入搜索内容",
+							"disabled":true,
+							"align":"left"
+						},
+						"buttons":[{
+							"disabled":true,
+							"text":"分类",
+							"width":"44px",
+							"fontSize":"16px"
+						}]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/classify/classify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar":{
+		    "color": "#7A7E83",
+		    "selectedColor": "#0a7bc5",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+		    "list": [{
+		        "pagePath": "pages/discover/discover",
+		        "iconPath": "static/tabbar/discover.png",
+		        "selectedIconPath": "static/tabbar/discover-active.png",
+		        "text": "发现"
+		    }, {
+		        "pagePath": "pages/classify/classify",
+		        "iconPath": "static/tabbar/classify.png",
+		        "selectedIconPath": "static/tabbar/classify-active.png",
+		        "text": "分类"
+		    },{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-active.png",
+				"text": "分类"
+			}]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
