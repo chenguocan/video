@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/discover/discover",
+    "pages/my/my",
+    "pages/classify/classify"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0a7bc5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "static/tabbar/discover.png",
+        "selectedIconPath": "static/tabbar/discover-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/tabbar/classify.png",
+        "selectedIconPath": "static/tabbar/classify-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/my-active.png",
+        "text": "分类"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

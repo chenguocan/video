@@ -22,12 +22,14 @@
 <style>
 .card{
 	margin: 0 10px;
+	
 }
 .title{
 	font-size: 24px;
 	font-weight: 700;
 }
 .refresh{
+	margin: 20rpx 0;
 	display: flex;
 	justify-content: center;
 	color:#007AFF;

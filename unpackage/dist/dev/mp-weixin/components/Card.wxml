@@ -1,0 +1,1 @@
+<view class="card"><view class="title _p">为你推荐</view><slot></slot><view class="refresh"><view class="iconfont iconshuaxin _i"></view><view class="_p">换一批</view></view></view>

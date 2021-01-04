@@ -10,21 +10,19 @@
 		</view>
 		<view>
 			<Card>
-				<view class="video-box">
-					<view class="video" v-for="i in 6" :key="i">
-						i
-					</view>
-				</view>
+				<VBox :playNum="250" :barrage="1000" title="欢迎光临" typeName="搞笑"></VBox>
 			</Card>
 		</view>
 	</view>
 </template>
 
 <script>
-	import Card from  "@/components/Card"
+	import Card from  "@/components/Card";
+	import VBox from "@/components/V-box"
 	export default {
 		components:{
 			Card,
+			VBox
 		},
 		data() {
 			return {
@@ -55,17 +53,5 @@
 <style lang="scss">
 .swiper{
 	margin: 20rpx;
-}
-.video-box{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	.video{
-		margin-top: 10px;
-		width: 345rpx;
-		height: 410rpx;
-		background-color: #007AFF;
-		border-radius: 6px;
-	}
 }
 </style>

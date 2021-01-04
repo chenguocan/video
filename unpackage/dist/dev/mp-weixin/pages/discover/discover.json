@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "card": "/components/Card",
+    "v-box": "/components/V-box"
+  }
+}
