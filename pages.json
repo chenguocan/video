@@ -68,8 +68,40 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "发布作品",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#FFFFFF"
+					}
+				}
             }
+            
+        },{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#FFFFFF"
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+           {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+           	"app-plus":{
+           		"titleNView":{
+           			"backgroundColor":"#FFFFFF"
+           		}
+           	}
+           }
             
         }
     ],
@@ -92,7 +124,7 @@
 				"pagePath": "pages/my/my",
 				"iconPath": "static/tabbar/my.png",
 				"selectedIconPath": "static/tabbar/my-active.png",
-				"text": "分类"
+				"text": "我的"
 			}]
 	},
 	"globalStyle": {

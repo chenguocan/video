@@ -10576,7 +10576,23 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 117 */,
 /* 118 */,
 /* 119 */,
-/* 120 */
+/* 120 */,
+/* 121 */,
+/* 122 */,
+/* 123 */,
+/* 124 */,
+/* 125 */,
+/* 126 */,
+/* 127 */,
+/* 128 */,
+/* 129 */,
+/* 130 */,
+/* 131 */,
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */,
+/* 136 */
 /*!****************************************************************************!*\
   !*** C:/Users/chenguocan/Desktop/视频点播/video/uview-ui/libs/util/emitter.js ***!
   \****************************************************************************/
@@ -10635,7 +10651,7 @@ function _broadcast(componentName, eventName, params) {
     } } };exports.default = _default;
 
 /***/ }),
-/* 121 */
+/* 137 */
 /*!************************************************************************************!*\
   !*** C:/Users/chenguocan/Desktop/视频点播/video/uview-ui/libs/util/async-validator.js ***!
   \************************************************************************************/
@@ -11998,10 +12014,10 @@ Schema.warning = warning;
 Schema.messages = messages;var _default =
 
 Schema;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/node-libs-browser/mock/process.js */ 122)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/node-libs-browser/mock/process.js */ 138)))
 
 /***/ }),
-/* 122 */
+/* 138 */
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -12032,7 +12048,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 123);
+        if (!path) path = __webpack_require__(/*! path */ 139);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -12045,7 +12061,7 @@ exports.features = {};
 
 
 /***/ }),
-/* 123 */
+/* 139 */
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -12355,7 +12371,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 122)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 138)))
 
 /***/ })
 ]]);

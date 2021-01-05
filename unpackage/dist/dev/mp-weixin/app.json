@@ -3,7 +3,9 @@
     "pages/discover/discover",
     "pages/my/my",
     "pages/classify/classify",
-    "pages/simple/simple"
+    "pages/simple/simple",
+    "pages/login/login",
+    "pages/register/register"
   ],
   "subPackages": [],
   "window": {
@@ -34,10 +36,10 @@
         "pagePath": "pages/my/my",
         "iconPath": "static/tabbar/my.png",
         "selectedIconPath": "static/tabbar/my-active.png",
-        "text": "分类"
+        "text": "我的"
       }
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap27.json"
+  "sitemapLocation": "sitemap66.json"
 }

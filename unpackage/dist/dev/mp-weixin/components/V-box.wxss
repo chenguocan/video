@@ -59,6 +59,9 @@
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
   left: 0;
   right: 0;
   height: 40rpx;
@@ -70,13 +73,23 @@
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
   width: 150rpx;
   margin: 0 20rpx;
 }
 .video-box .video .video-footer .barrage {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
+}
+.video-box .video .video-footer ._span {
+  margin-left: 5rpx;
+  font-size: 23rpx;
 }
 .video-box .video .title {
   font-size: 32rpx;

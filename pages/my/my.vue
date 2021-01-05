@@ -47,6 +47,9 @@
 				立即投稿
 			</view>
 		</view>
+		<navigator url="../login/login">
+			登录
+		</navigator>
 		<u-popup v-model="show" mode="bottom" :closeable="true" height="30%">
 			<view class="create">
 				<view class="simple" @click="toRelease(1)">

@@ -82,6 +82,7 @@
 			position: absolute;
 			color: #F1F1F1;
 			display: flex;
+			align-items: center;
 			left: 0;
 			right: 0;
 			height: 40rpx;
@@ -89,11 +90,17 @@
 			background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(52, 52, 52, 0.8));
 			.play-num{
 				display: flex;
+				align-items: center;
 				width: 150rpx;
 				margin:0 20rpx;
 			}
 			.barrage{
+				align-items: center;
 				display: flex;
+			}
+			span{
+				margin-left: 5rpx;
+				font-size: 23rpx;
 			}
 			
 		}
