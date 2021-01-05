@@ -1,7 +1,6 @@
 <script>
 	export default {
 		onLaunch: function(res) {
-			console.log(res);
 			
 		},
 		onShow: function() {

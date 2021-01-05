@@ -63,6 +63,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/simple/simple",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布作品",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"tabBar":{
 		    "color": "#7A7E83",

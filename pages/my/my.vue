@@ -48,14 +48,14 @@
 			</view>
 		</view>
 		<u-popup v-model="show" mode="bottom" :closeable="true" height="30%">
-			<view>
-				<view class="simple">
+			<view class="create">
+				<view class="simple" @click="toRelease(1)">
 					<i class="iconfont icondingdanwenjian"></i>
 					<view>
 						单集
 					</view>
 				</view>
-				<view>
+				<view class="serial" @click="toRelease(2)">
 					<i class="iconfont icon918caidan_wenjian"></i>
 					<view>
 						连载
@@ -90,6 +90,13 @@
 		methods: {
 			submit(){
 				this.show=true
+			},
+			toRelease(index){
+				if(index===1){
+					uni.navigateTo({
+						url:'../simple/simple'
+					})
+				}
 			}
 		}
 	}
@@ -155,13 +162,39 @@
 		align-items: center;
 		justify-content: center;
 		border-radius: 50rpx;
-		background-color: #fb7299;
+		background-color: #0a7bc5;
 		margin-top: 20rpx;
 		width: 680rpx;
 		height: 75rpx;
 	}
 }
-.simple{
-	border:1px solid red;
+.create{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	.simple,.serial{
+		.iconfont{
+			font-size: 50rpx;
+			color:white;
+		}
+		font-size: 20rpx;
+		color: white;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		height: 150rpx;
+		width: 150rpx;
+		border-radius: 50%;
+	}
+	.simple{
+		background: #007AFF;
+		margin-right: 50rpx;
+	}
+	.serial{
+		margin-left: 50rpx;
+		background: #ff557f;
+	}
 }
 </style>

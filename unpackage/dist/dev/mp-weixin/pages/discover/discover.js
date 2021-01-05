@@ -94,7 +94,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uSwiper: function() {
-    return __webpack_require__.e(/*! import() | uview-ui/components/u-swiper/u-swiper */ "uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-swiper/u-swiper.vue */ 64))
+    return __webpack_require__.e(/*! import() | uview-ui/components/u-swiper/u-swiper */ "uview-ui/components/u-swiper/u-swiper").then(__webpack_require__.bind(null, /*! @/uview-ui/components/u-swiper/u-swiper.vue */ 73))
   }
 }
 var render = function() {
@@ -146,7 +146,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var Card = function Card() {__webpack_require__.e(/*! require.ensure | components/Card */ "components/Card").then((function () {return resolve(__webpack_require__(/*! @/components/Card */ 71));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var VBox = function VBox() {__webpack_require__.e(/*! require.ensure | components/V-box */ "components/V-box").then((function () {return resolve(__webpack_require__(/*! @/components/V-box */ 78));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var Card = function Card() {__webpack_require__.e(/*! require.ensure | components/Card */ "components/Card").then((function () {return resolve(__webpack_require__(/*! @/components/Card */ 80));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var VBox = function VBox() {__webpack_require__.e(/*! require.ensure | components/V-box */ "components/V-box").then((function () {return resolve(__webpack_require__(/*! @/components/V-box */ 87));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 

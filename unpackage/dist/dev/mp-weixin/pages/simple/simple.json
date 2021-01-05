@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发布作品",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

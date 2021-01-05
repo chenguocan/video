@@ -91,7 +91,6 @@ __webpack_require__.r(__webpack_exports__);
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default =
 {
   onLaunch: function onLaunch(res) {
-    console.log(res);
 
   },
   onShow: function onShow() {

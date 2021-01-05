@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/Card":1,"components/V-box":1,"uview-ui/components/u-swiper/u-swiper":1,"uview-ui/components/u-avatar/u-avatar":1,"uview-ui/components/u-popup/u-popup":1,"uview-ui/components/u-icon/u-icon":1,"uview-ui/components/u-mask/u-mask":1};
+/******/ 		var cssChunks = {"components/Card":1,"components/V-box":1,"uview-ui/components/u-swiper/u-swiper":1,"uview-ui/components/u-avatar/u-avatar":1,"uview-ui/components/u-popup/u-popup":1,"uview-ui/components/u-form-item/u-form-item":1,"uview-ui/components/u-input/u-input":1,"uview-ui/components/u-action-sheet/u-action-sheet":1,"uview-ui/components/u-form/u-form":1,"uview-ui/components/u-icon/u-icon":1,"uview-ui/components/u-mask/u-mask":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/Card":"components/Card","components/V-box":"components/V-box","uview-ui/components/u-swiper/u-swiper":"uview-ui/components/u-swiper/u-swiper","uview-ui/components/u-avatar/u-avatar":"uview-ui/components/u-avatar/u-avatar","uview-ui/components/u-popup/u-popup":"uview-ui/components/u-popup/u-popup","uview-ui/components/u-icon/u-icon":"uview-ui/components/u-icon/u-icon","uview-ui/components/u-mask/u-mask":"uview-ui/components/u-mask/u-mask"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/Card":"components/Card","components/V-box":"components/V-box","uview-ui/components/u-swiper/u-swiper":"uview-ui/components/u-swiper/u-swiper","uview-ui/components/u-avatar/u-avatar":"uview-ui/components/u-avatar/u-avatar","uview-ui/components/u-popup/u-popup":"uview-ui/components/u-popup/u-popup","uview-ui/components/u-form-item/u-form-item":"uview-ui/components/u-form-item/u-form-item","uview-ui/components/u-input/u-input":"uview-ui/components/u-input/u-input","uview-ui/components/u-action-sheet/u-action-sheet":"uview-ui/components/u-action-sheet/u-action-sheet","uview-ui/components/u-form/u-form":"uview-ui/components/u-form/u-form","uview-ui/components/u-icon/u-icon":"uview-ui/components/u-icon/u-icon","uview-ui/components/u-mask/u-mask":"uview-ui/components/u-mask/u-mask"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

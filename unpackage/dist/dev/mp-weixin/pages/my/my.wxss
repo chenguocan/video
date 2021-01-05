@@ -113,12 +113,53 @@
   -webkit-justify-content: center;
           justify-content: center;
   border-radius: 50rpx;
-  background-color: #fb7299;
+  background-color: #0a7bc5;
   margin-top: 20rpx;
   width: 680rpx;
   height: 75rpx;
 }
-.simple {
-  border: 1px solid red;
+.create {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.create .simple, .create .serial {
+  font-size: 20rpx;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+}
+.create .simple .iconfont, .create .serial .iconfont {
+  font-size: 50rpx;
+  color: white;
+}
+.create .simple {
+  background: #007AFF;
+  margin-right: 50rpx;
+}
+.create .serial {
+  margin-left: 50rpx;
+  background: #ff557f;
 }
 

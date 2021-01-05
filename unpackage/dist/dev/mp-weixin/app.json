@@ -2,7 +2,8 @@
   "pages": [
     "pages/discover/discover",
     "pages/my/my",
-    "pages/classify/classify"
+    "pages/classify/classify",
+    "pages/simple/simple"
   ],
   "subPackages": [],
   "window": {
@@ -37,5 +38,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap27.json"
 }
