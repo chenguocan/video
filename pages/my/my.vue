@@ -99,6 +99,10 @@
 					uni.navigateTo({
 						url:'../mywork/mywork'
 					})
+				}else if(index===2){
+					uni.navigateTo({
+						url:'../videolist/videolist'
+					})
 				}
 			},
 			toRelease(index){

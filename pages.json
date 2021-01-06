@@ -118,6 +118,20 @@
             }
             
         }
+        ,{
+            "path" : "pages/videolist/videolist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频列表",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#FFFFFF"
+					}
+				}
+            }
+            
+        }
     ],
 	"tabBar":{
 		    "color": "#7A7E83",
