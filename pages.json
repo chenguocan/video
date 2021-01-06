@@ -104,6 +104,20 @@
            }
             
         }
+        ,{
+            "path" : "pages/mywork/mywork",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的作品",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#FFFFFF"
+					}
+				}
+            }
+            
+        }
     ],
 	"tabBar":{
 		    "color": "#7A7E83",

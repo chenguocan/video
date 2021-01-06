@@ -30,7 +30,7 @@
 		<view style="width: 100%; height: 20rpx; background: #f5f5f4;">		
 		</view>
 		<view class="main">
-			<view class="bar" v-for="(item,index) in list" :key="index">
+			<view class="bar" v-for="(item,index) in list" :key="index" @click="bar(index+1)">
 				<view class="right">
 					<i class="iconfont" :class="item.icon"></i>
 					<view>
@@ -94,7 +94,15 @@
 			submit(){
 				this.show=true
 			},
+			bar(index){
+				if(index===1){
+					uni.navigateTo({
+						url:'../mywork/mywork'
+					})
+				}
+			},
 			toRelease(index){
+				this.show=false
 				if(index===1){
 					uni.navigateTo({
 						url:'../simple/simple'
